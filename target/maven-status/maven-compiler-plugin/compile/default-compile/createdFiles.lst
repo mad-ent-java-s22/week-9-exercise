@@ -1,0 +1,7 @@
+org\davidcalabrese\config\App.class
+org\davidcalabrese\persistence\GenericDao.class
+org\davidcalabrese\util\Database.class
+org\davidcalabrese\persistence\SessionFactoryProvider.class
+org\davidcalabrese\util\PropertiesLoader.class
+org\davidcalabrese\entity\User.class
+org\davidcalabrese\services\UserService.class

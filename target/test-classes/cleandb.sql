@@ -1,0 +1,112 @@
+drop table user;
+
+create table user (
+                      id INT,
+                      first_name VARCHAR(50),
+                      last_name VARCHAR(50),
+                      email VARCHAR(50),
+                      gender VARCHAR(50),
+                      user_role VARCHAR(50)
+);
+insert into user (id, first_name, last_name, email, gender, user_role) values (1, 'Astrix', 'Stow', 'astow0@homestead.com', 'Female', 'Project Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (2, 'Lockwood', 'Penhall', 'lpenhall1@bbb.org', 'Male', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (3, 'Judas', 'Hetterich', 'jhetterich2@meetup.com', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (4, 'Malinde', 'Ast', 'mast3@wordpress.org', 'Female', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (5, 'Micaela', 'Coleyshaw', 'mcoleyshaw4@mac.com', 'Female', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (6, 'Calhoun', 'Killbey', 'ckillbey5@springer.com', 'Agender', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (7, 'Modestine', 'Geri', 'mgeri6@fda.gov', 'Female', 'Electrician');
+insert into user (id, first_name, last_name, email, gender, user_role) values (8, 'Lind', 'McKevin', 'lmckevin7@whitehouse.gov', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (9, 'Murray', 'Longhorne', 'mlonghorne8@posterous.com', 'Male', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (10, 'Rolfe', 'Cubberley', 'rcubberley9@dailymail.co.uk', 'Male', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (11, 'Rafaela', 'Dayborne', 'rdaybornea@oaic.gov.au', 'Genderfluid', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (12, 'Corliss', 'Haig', 'chaigb@pinterest.com', 'Female', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (13, 'Alicia', 'Bourley', 'abourleyc@wordpress.org', 'Female', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (14, 'Erda', 'Bramsom', 'ebramsomd@godaddy.com', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (15, 'Correy', 'Cockerill', 'ccockerille@dropbox.com', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (16, 'Hyacintha', 'Devoy', 'hdevoyf@is.gd', 'Female', 'Surveyor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (17, 'Lucy', 'Gurery', 'lgureryg@paginegialle.it', 'Female', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (18, 'Laryssa', 'Tewes', 'ltewesh@instagram.com', 'Female', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (19, 'Hugibert', 'Drance', 'hdrancei@usgs.gov', 'Male', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (20, 'Micky', 'Eastam', 'meastamj@vimeo.com', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (21, 'Shurwood', 'Aronowicz', 'saronowiczk@loc.gov', 'Male', 'Subcontractor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (22, 'Albrecht', 'Bitcheno', 'abitchenol@comsenz.com', 'Male', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (23, 'Damara', 'Windham', 'dwindhamm@printfriendly.com', 'Female', 'Surveyor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (24, 'Moselle', 'Yallowley', 'myallowleyn@amazon.de', 'Female', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (25, 'Verne', 'Nashe', 'vnasheo@e-recht24.de', 'Male', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (26, 'Debora', 'Sighard', 'dsighardp@facebook.com', 'Female', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (27, 'Kory', 'O''Cannovane', 'kocannovaneq@cafepress.com', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (28, 'Emera', 'Prewett', 'eprewettr@pagesperso-orange.fr', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (29, 'Roddie', 'Cannell', 'rcannells@networkadvertising.org', 'Bigender', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (30, 'Eimile', 'Devine', 'edevinet@wikia.com', 'Female', 'Electrician');
+insert into user (id, first_name, last_name, email, gender, user_role) values (31, 'Bartel', 'Mudd', 'bmuddu@samsung.com', 'Male', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (32, 'Essy', 'Briat', 'ebriatv@dedecms.com', 'Female', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (33, 'Aharon', 'Klimontovich', 'aklimontovichw@netscape.com', 'Male', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (34, 'Gisela', 'Worssam', 'gworssamx@drupal.org', 'Female', 'Subcontractor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (35, 'Lorita', 'Dicks', 'ldicksy@reverbnation.com', 'Female', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (36, 'Nikolaus', 'Middleton', 'nmiddletonz@tripod.com', 'Male', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (37, 'Malva', 'Tewkesbury', 'mtewkesbury10@usnews.com', 'Female', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (38, 'Hilliary', 'Rosen', 'hrosen11@theatlantic.com', 'Female', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (39, 'Darill', 'Edensor', 'dedensor12@microsoft.com', 'Male', 'Surveyor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (40, 'Ben', 'Martyn', 'bmartyn13@ezinearticles.com', 'Male', 'Project Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (41, 'Yvette', 'Pues', 'ypues14@google.cn', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (42, 'Chariot', 'Holstein', 'cholstein15@yelp.com', 'Male', 'Surveyor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (43, 'Binnie', 'Rosenshine', 'brosenshine16@php.net', 'Female', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (44, 'Alyssa', 'Skerman', 'askerman17@constantcontact.com', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (45, 'Nanine', 'Yeiles', 'nyeiles18@nasa.gov', 'Female', 'Project Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (46, 'Kathrine', 'Stooke', 'kstooke19@rambler.ru', 'Female', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (47, 'Dalt', 'Bushen', 'dbushen1a@ca.gov', 'Male', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (48, 'Saxon', 'Milmo', 'smilmo1b@taobao.com', 'Male', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (49, 'Emylee', 'Ruger', 'eruger1c@dailymail.co.uk', 'Female', 'Surveyor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (50, 'Terrell', 'Jays', 'tjays1d@gravatar.com', 'Male', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (51, 'Walton', 'Schimoni', 'wschimoni1e@last.fm', 'Male', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (52, 'Roberta', 'Kennon', 'rkennon1f@freewebs.com', 'Female', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (53, 'Rosetta', 'Odegaard', 'rodegaard1g@ocn.ne.jp', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (54, 'Lyndy', 'Mulholland', 'lmulholland1h@woothemes.com', 'Female', 'Project Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (55, 'Joanie', 'Poile', 'jpoile1i@miitbeian.gov.cn', 'Female', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (56, 'Alexandrina', 'Delagnes', 'adelagnes1j@hatena.ne.jp', 'Female', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (57, 'Betteanne', 'Fontin', 'bfontin1k@squidoo.com', 'Female', 'Project Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (58, 'Rhetta', 'Byllam', 'rbyllam1l@prweb.com', 'Female', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (59, 'Cristy', 'Echallie', 'cechallie1m@weather.com', 'Female', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (60, 'Herman', 'Fochs', 'hfochs1n@ox.ac.uk', 'Genderfluid', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (61, 'Alain', 'Campling', 'acampling1o@163.com', 'Male', 'Electrician');
+insert into user (id, first_name, last_name, email, gender, user_role) values (62, 'Kliment', 'Grigolashvill', 'kgrigolashvill1p@devhub.com', 'Male', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (63, 'Gayle', 'O''Mannion', 'gomannion1q@mac.com', 'Female', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (64, 'Kane', 'MacKowle', 'kmackowle1r@soundcloud.com', 'Male', 'Electrician');
+insert into user (id, first_name, last_name, email, gender, user_role) values (65, 'Janeczka', 'Glover', 'jglover1s@1und1.de', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (66, 'Guntar', 'Lord', 'glord1t@google.com.hk', 'Male', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (67, 'Orbadiah', 'Aherne', 'oaherne1u@artisteer.com', 'Male', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (68, 'Irv', 'Knapton', 'iknapton1v@wiley.com', 'Bigender', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (69, 'Chic', 'Clewer', 'cclewer1w@loc.gov', 'Bigender', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (70, 'Corrina', 'Rosa', 'crosa1x@marketwatch.com', 'Female', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (71, 'Maria', 'Belin', 'mbelin1y@sina.com.cn', 'Female', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (72, 'Andris', 'Pidgin', 'apidgin1z@i2i.jp', 'Male', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (73, 'Clem', 'Vanyarkin', 'cvanyarkin20@blinklist.com', 'Female', 'Project Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (74, 'Blaine', 'Zellner', 'bzellner21@smh.com.au', 'Male', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (75, 'Ina', 'Juggings', 'ijuggings22@webnode.com', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (76, 'Henrieta', 'Machen', 'hmachen23@state.gov', 'Female', 'Construction Manager');
+insert into user (id, first_name, last_name, email, gender, user_role) values (77, 'Ema', 'Hallgalley', 'ehallgalley24@ning.com', 'Female', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (78, 'Ange', 'Lytlle', 'alytlle25@myspace.com', 'Male', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (79, 'Harlen', 'Tyres', 'htyres26@fc2.com', 'Male', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (80, 'Shaw', 'Tethacot', 'stethacot27@fc2.com', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (81, 'Romola', 'Renny', 'rrenny28@cornell.edu', 'Female', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (82, 'Geno', 'Okey', 'gokey29@va.gov', 'Male', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (83, 'Deanna', 'Foxworthy', 'dfoxworthy2a@google.cn', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (84, 'Sharona', 'McCarlie', 'smccarlie2b@patch.com', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (85, 'Ronni', 'Saphin', 'rsaphin2c@cbsnews.com', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (86, 'Basile', 'Edward', 'bedward2d@rediff.com', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (87, 'Phillip', 'Phillimore', 'pphillimore2e@howstuffworks.com', 'Male', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (88, 'Joanie', 'Faircliff', 'jfaircliff2f@amazon.co.jp', 'Female', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (89, 'Wilmette', 'Robecon', 'wrobecon2g@smh.com.au', 'Female', 'Architect');
+insert into user (id, first_name, last_name, email, gender, user_role) values (90, 'Merna', 'Corrin', 'mcorrin2h@harvard.edu', 'Female', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (91, 'Lexie', 'Philp', 'lphilp2i@facebook.com', 'Female', 'Construction Expeditor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (92, 'Rayner', 'Road', 'rroad2j@jiathis.com', 'Male', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (93, 'Beniamino', 'Tyer', 'btyer2k@miibeian.gov.cn', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (94, 'Enos', 'Cambling', 'ecambling2l@usa.gov', 'Male', 'Engineer');
+insert into user (id, first_name, last_name, email, gender, user_role) values (95, 'Chad', 'Dunstall', 'cdunstall2m@t.co', 'Agender', 'Construction Worker');
+insert into user (id, first_name, last_name, email, gender, user_role) values (96, 'Abbye', 'Langrick', 'alangrick2n@pinterest.com', 'Female', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (97, 'Ole', 'Hallmark', 'ohallmark2o@dailymotion.com', 'Male', 'Estimator');
+insert into user (id, first_name, last_name, email, gender, user_role) values (98, 'Tommy', 'Okker', 'tokker2p@foxnews.com', 'Female', 'Supervisor');
+insert into user (id, first_name, last_name, email, gender, user_role) values (99, 'Douglass', 'Crocumbe', 'dcrocumbe2q@engadget.com', 'Male', 'Construction Foreman');
+insert into user (id, first_name, last_name, email, gender, user_role) values (100, 'Dottie', 'Pere', 'dpere2r@usgs.gov', 'Female', 'Subcontractor');
+
+
